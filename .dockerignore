@@ -1,0 +1,11 @@
+# Exclude local development artifacts from the Docker build context
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+htmlcov/
+.git/
+.gitignore
+.DS_Store
